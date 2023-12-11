@@ -39,6 +39,12 @@
             </div>
         </div>
     </div>
-    <script src="{% static 'login.js' %}"></script>
+    <script>
+        const signup = document.getElementById("signUp");
+
+signup.addEventListener("click",()=>{
+	document.getElementById("signuplink").click();
+})
+    </script>
 </body>
 </html>
