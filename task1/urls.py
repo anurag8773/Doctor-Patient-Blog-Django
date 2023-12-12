@@ -17,3 +17,7 @@ urlpatterns = [
     path('blog/myblog/filter/<str:fl>',myfilter),
     path('blog/viewblog/<int:bno>',viewblog),
 ] + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+if settings.DEBUG:
+ urlpatterns += path('admin/', admin.site.urls)
