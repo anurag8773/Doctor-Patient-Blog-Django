@@ -1,6 +1,6 @@
-# Login_Signup_Django_MySQL
+# Doctor-Patient-Blog-Django
 
-This project implements a secure login and signup system for patients and doctors within a hospital environment using Django as the web framework and MySQL as the database management system.
+This project implements a secure login and signup system with blog for patients and doctors within a hospital environment using Django as the web framework and MySQL as the database management system.
 
 ## Features
 
